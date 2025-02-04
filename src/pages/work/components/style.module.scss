@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+.project {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px 10px;
+  border-top: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+  transition: all 0.2s;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 50px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 50px 100px;
+  }
+
+  .projectInfo {
+    margin-bottom: 1px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    transition: all 0.4s;
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 60px;
+    }
+  }
+
+  p {
+    transition: all 0.4s;
+    font-weight: 300;
+  }
+
+  .description {
+    font-size: 15px;
+
+    @media (min-width: 768px) {
+      font-size: 17px;
+    }
+  }
+
+  .category {
+    font-size: 12px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+  }
+
+  &:last-of-type {
+    border-bottom: 1px solid rgb(201, 201, 201);
+  }
+
+  &:hover {
+    opacity: 0.5;
+
+    h2 {
+      transform: translateX(-10px);
+    }
+
+    p {
+      transform: translateX(10px);
+    }
+  }
+}

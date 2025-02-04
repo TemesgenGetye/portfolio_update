@@ -1,0 +1,102 @@
+.projectContainer {
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 2rem;
+  color: #000;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header a.active {
+  position: relative;
+}
+
+.header a.active:after {
+  content: "•";
+  position: absolute;
+  top: -0.5rem;
+  right: -0.75rem;
+}
+
+.main {
+  padding: 8rem 2rem 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.projectInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.projectInfo .column h3 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.projectInfo .column p {
+  margin-bottom: 0.5rem;
+}
+
+.heroImage {
+  margin-bottom: 8rem;
+}
+
+.heroImage .image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.deviceMockup {
+  padding: 4rem;
+  background: #f5f5f5;
+  margin-bottom: 8rem;
+}
+
+.deviceMockup .mockupImage {
+  width: 100%;
+  height: auto;
+}
+
+.mobileScreens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.mobileScreens .mobileScreen .screenImage {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
