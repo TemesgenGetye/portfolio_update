@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 const projects = [
   {
     title: "Muya",
@@ -57,6 +59,7 @@ const projects = [
     color: "#706D63",
     tech: "Next js, Node.js, SQL, Drizzle ,t3",
     slug: "muya",
+    url: "https://muya-web.vercel.app/",
   },
   {
     title: "Gym",
@@ -117,6 +120,7 @@ const projects = [
     color: "#706D63",
     tech: "React, Node.js, MySQl, Express, prizma",
     slug: "gym",
+    url: "",
   },
 
   {
@@ -162,6 +166,7 @@ const projects = [
     color: "#706D63",
     tech: "React , Shadcn ui , Tailwind , Framer ,Jest",
     slug: "nati",
+    url: "https://nati-mobile-solution.vercel.app",
   },
   {
     title: "Betelhem Ashnafi's Portfolio Website",
@@ -205,6 +210,7 @@ const projects = [
     color: "#706D63",
     tech: "React, Node.js, CSS3, HTML5, Vercel",
     slug: "beti",
+    url: "https://betelhem.vercel.app",
   },
   {
     title: "Muya Management System",
@@ -249,6 +255,7 @@ const projects = [
     color: "#706D63",
     tech: "Next js, Node.js, SQL, Drizzle ,t3",
     slug: "muya_dash",
+    url: "https://muya-dashbord-nine.vercel.app",
   },
   {
     title: "Wedding Thank You Website",
@@ -286,6 +293,7 @@ const projects = [
   </div>
   `,
     slug: "wedding-thank-you-website",
+    url: "https://betelhem-and-daniel-wedding.plutotechnologies.org/",
   },
   {
     title: "Gebeya",
@@ -323,6 +331,7 @@ const projects = [
     <p>Gebeya is a powerful tool for eCommerce businesses looking to streamline their operations and expand their market reach.</p>
   </div>`,
     slug: "gebeya",
+    url: "",
   },
   {
     title: "Hagurash",
@@ -367,6 +376,7 @@ const projects = [
     color: "#706D63",
     tech: "HTML, CSS, Vanilla js, MySql ,PHP 😎",
     slug: "hagu",
+    url: "",
   },
   {
     title: "Gym Mobile App",
@@ -500,6 +510,7 @@ const projects = [
     color: "#706D63",
     tech: "React, Go, Mango DB, Swager, Tailwind CSS, React Query ,",
     slug: "report",
+    url: "https://ftp-report-managment.vercel.app/",
   },
 ];
 

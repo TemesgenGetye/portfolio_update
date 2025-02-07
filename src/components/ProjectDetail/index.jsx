@@ -17,6 +17,8 @@ const ProjectDetail = ({ project }) => {
     return <div>Project not found</div>;
   }
 
+  console.log(project);
+
   return (
     <div className="container">
       <Header customClass="project-details-header" />
@@ -82,9 +84,15 @@ const ProjectDetail = ({ project }) => {
       </main>
       <div className="space"></div>
       <Contact />
-      <button className="like-button">
-        View <br /> Project
-      </button>
+
+      {project.url !== "" && (
+        <button
+          className="like-button"
+          onClick={() => window.open(project.url)}
+        >
+          View <br /> Project
+        </button>
+      )}
     </div>
   );
 };
