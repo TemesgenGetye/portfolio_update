@@ -6,8 +6,50 @@ import { Monitor } from "lucide-react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Temesgen Getye | Portfolio",
-  description: "This is my 2024 portfolio",
+  // Standard SEO Metadata
+  title: 'Temesgen Getye - Senior Frontend, Node.js & React Native Developer Portfolio',
+  description:
+    'Portfolio of Temesgen Getye, a Senior Frontend Developer, Node.js Backend Developer, and React Native expert. Discover my projects in web and mobile app development.',
+  keywords: [
+    'Temesgen Getye',
+    'senior frontend developer',
+    'Node.js backend developer',
+    'React Native developer',
+    'web development',
+    'mobile app development',
+    'JavaScript',
+    'Next.js',
+    'portfolio',
+    'software engineer',
+    'full-stack developer',
+  ],
+  authors: [{ name: 'Temesgen Getye' }],
+  robots: 'index, follow',
+  viewport: 'width=device-width, initial-scale=1.0',
+
+
+  openGraph: {
+    title: 'Temesgen Getye - Senior Frontend, Node.js & React Native Developer',
+    description:
+      'Explore Temesgen Getye’s portfolio showcasing expertise as a Senior Frontend Developer, Node.js Backend Developer, and React Native specialist. See my web and mobile projects!',
+    url: 'https://temesgen-getye.dev',
+    type: 'website',
+    images: [
+      {
+        url: 'https://media.licdn.com/dms/image/v2/D4E03AQFCloVg8NzcUQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729072917287?e=1747872000&v=beta&t=Ih0vcVYZGobRtiNwDOGVB96rfd0R1m51LFQvXr_TDv8', // Replace with your image
+        width: 1200,
+        height: 630,
+        alt: 'Temesgen Getye Portfolio - Senior Developer Projects',
+      },
+    ],
+    siteName: 'Temesgen Getye Portfolio',
+    locale: 'en_US',
+  },
+
+  // Favicon
+  icons: {
+    icon: '/favicon.ico', // Ensure this file exists in public/
+  },
 };
 
 export default function RootLayout({ children }) {
