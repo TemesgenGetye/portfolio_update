@@ -66,7 +66,7 @@ export default function Header({ customClass }) {
     { href: "/", label: "Home" },
     { href: "/work", label: "Work" },
     {
-      href: "https://app.enhancv.com/share/d79d2164/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
+      href: "https://drive.google.com/file/d/1c8qp9264kgiokqoZPyMYz4kXe8x188p7/view?usp=sharing",
       label: "Resume",
       external: true,
     },
