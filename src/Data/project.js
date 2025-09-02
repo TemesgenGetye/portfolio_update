@@ -1,4 +1,33 @@
 export const ProjectData = [
+{
+  title: "888 Market",
+  src: "888.png",
+  desc: "One of Dubai’s major e-commerce platforms; I worked as a Full-Stack Developer, building and maintaining both frontend and backend systems.",
+  color: "#D9822B",
+  link: "888",
+},
+
+  {
+  title: "Emawas",
+  src: "emawa.png",
+  desc: "One of Ethiopia’s largest online shopping platforms with admin and warehouse management; I developed the responsive web frontend.",
+  color: "#4B6EAF",
+  link: "emawa",
+},
+{
+  title: "Eth Delivery",
+  src: "eth.png",
+  desc: "A leading Dubai online store and delivery platform; I built the web frontend for both admin and user dashboards.",
+  color: "#2C786C",
+  link: "eth",
+},
+{
+  title: "Selam School",
+  src: "selam.png",
+  desc: "An e-learning platform that teaches programming to students; I created interactive and responsive student and admin interfaces.",
+  color: "#8D5B4C",
+  link: "selam",
+},
   {
     title: "Muya",
     src: "muya.png",
