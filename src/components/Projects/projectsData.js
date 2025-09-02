@@ -1,6 +1,148 @@
 import { url } from "inspector";
 
 const projects = [
+{
+  title: "888 Market",
+  src: "888.png",
+  role: "Full-Stack Developer",
+  desc: "One of Dubai’s major e-commerce platforms with a complete admin side; I developed the full-stack using Supabase and React.",
+  description: `
+    <p><strong>888 Market</strong> is one of Dubai’s largest e-commerce platforms, designed to provide a smooth shopping experience for customers while offering powerful management tools for administrators. As a Full-Stack Developer, I worked on both the customer-facing platform and the admin side to ensure scalability, performance, and usability.</p>
+    <p><strong>Using 888 Market, users can:</strong></p>
+    <ol>
+      <li>Browse and filter thousands of products with advanced search tools.</li>
+      <li>Create secure accounts and manage their shopping history.</li>
+      <li>Track orders in real-time with instant status updates.</li>
+      <li>Make secure payments integrated through APIs.</li>
+      <li>Receive personalized recommendations and deals.</li>
+    </ol>
+    <p><strong>Admins can:</strong></p>
+    <ul>
+      <li>Manage products, categories, and inventory in real-time.</li>
+      <li>Track and process customer orders efficiently.</li>
+      <li>Oversee user accounts, roles, and permissions.</li>
+      <li>View sales analytics and performance metrics.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Built the frontend with <strong>React</strong> and integrated Supabase for authentication and database management.</li>
+      <li>Developed the <strong>admin dashboard</strong> for product, order, and user management.</li>
+      <li>Implemented secure API integrations for payments and logistics.</li>
+      <li>Optimized UI/UX for responsive shopping across desktop and mobile devices.</li>
+      <li>Collaborated with a team to ensure scalability and clean architecture.</li>
+    </ol>
+  `,
+  color: "#0B2C61",
+  tech: "React, Supabase, Tailwind css , reactquery , shadcn ui",
+  slug: "888",
+  url: "https://eth-market-dev.vercel.app/",
+},
+{
+  title: "Emawas",
+  src: "emawa.png",
+  role: "Frontend Developer",
+  desc: "One of Ethiopia’s largest online shopping platforms with warehouse management; I built the responsive web frontend.",
+  description: `
+    <p><strong>Emawas</strong> is one of Ethiopia’s biggest online shopping platforms, connecting thousands of customers with a wide range of products. It also includes a powerful admin side for warehouse and order management.</p>
+    <p><strong>For customers, the platform offers:</strong></p>
+    <ol>
+      <li>Easy browsing and product discovery with advanced filters.</li>
+      <li>Secure account management and order tracking.</li>
+      <li>Responsive design for shopping on any device.</li>
+      <li>Fast-loading pages to ensure a smooth experience.</li>
+    </ol>
+    <p><strong>For admins:</strong></p>
+    <ul>
+      <li>Warehouse and inventory management dashboards.</li>
+      <li>Order management and tracking tools.</li>
+      <li>Real-time product updates through API integration.</li>
+      <li>Data-driven insights to improve operations.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed the responsive frontend using <strong>React</strong> and <strong>Tailwind CSS</strong>.</li>
+      <li>Implemented state management with React Query/Redux for real-time updates.</li>
+      <li>Integrated APIs for products, orders, and user data.</li>
+      <li>Optimized the frontend for performance and usability.</li>
+      <li>Worked closely with backend developers to ensure seamless integration.</li>
+    </ol>
+  `,
+  color: "#B02020",
+  tech: "React, Tailwind CSS, Redux, React Query",
+  slug: "emawa",
+  url: "https://emawas.com/",
+},
+{
+  title: "Eth Delivery",
+  src: "eth.png",
+  role: "Frontend Developer",
+  desc: "A leading Dubai online store and delivery platform; I built the frontend for both admin and user dashboards.",
+  description: `
+    <p><strong>Eth Delivery</strong> is one of Dubai’s largest e-commerce and delivery service platforms, offering customers the ability to shop online while also ensuring reliable delivery management for businesses.</p>
+    <p><strong>Customer Features:</strong></p>
+    <ol>
+      <li>Shop from a large catalog with intuitive search and filters.</li>
+      <li>Track orders in real-time with live delivery status updates.</li>
+      <li>Access personalized dashboards for managing profiles and orders.</li>
+      <li>Secure checkout and payment options integrated via APIs.</li>
+    </ol>
+    <p><strong>Admin Features:</strong></p>
+    <ul>
+      <li>Comprehensive dashboard for managing orders and deliveries.</li>
+      <li>Tools to oversee inventory, shipping, and customer accounts.</li>
+      <li>Real-time analytics for sales and logistics performance.</li>
+      <li>Multi-role support for admin and delivery staff.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed the frontend for both customer and admin interfaces using <strong>React</strong>.</li>
+      <li>Created responsive layouts optimized for all devices.</li>
+      <li>Integrated real-time API connections for order tracking.</li>
+      <li>Improved the shopping and delivery flow for better usability.</li>
+      <li>Ensured scalability with reusable, modular components.</li>
+    </ol>
+  `,
+  color: "#0A3D62",
+  tech: "React, Tailwind CSS, API Integration",
+  slug: "eth",
+  url: "https://www.ethdelivery.net/",
+},
+{
+  title: "Selam School",
+  src: "selam.png",
+  role: "Frontend Developer",
+  desc: "An e-learning platform teaching programming to students; I developed interactive and responsive student and admin interfaces.",
+  description: `
+    <p><strong>Selam School</strong> is a modern e-learning platform designed to teach programming to students through interactive courses, assignments, and real-time progress tracking.</p>
+    <p><strong>Student Features:</strong></p>
+    <ol>
+      <li>Interactive dashboards with courses, lessons, and assignments.</li>
+      <li>Progress tracking with real-time updates and analytics.</li>
+      <li>Responsive learning environment accessible on all devices.</li>
+      <li>Engaging UI/UX for a smooth learning experience.</li>
+    </ol>
+    <p><strong>Admin Features:</strong></p>
+    <ul>
+      <li>Course management system for adding and editing lessons.</li>
+      <li>Student management with performance tracking tools.</li>
+      <li>Analytics dashboards to monitor learning outcomes.</li>
+      <li>Integration with backend APIs for data synchronization.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Built the frontend with <strong>React.js</strong> and <strong>Next.js</strong>.</li>
+      <li>Implemented state management with React Query/Redux Toolkit.</li>
+      <li>Created interactive UI components using Tailwind CSS.</li>
+      <li>Integrated APIs for courses, lessons, and student progress.</li>
+      <li>Optimized the platform for accessibility and smooth performance.</li>
+    </ol>
+  `,
+  color: "#A68BC1",
+  tech: "Next.js, React.js, Tailwind CSS, React Query",
+  slug: "selam",
+  url: "https://selamschool.com/",
+},
+
   {
     title: "Muya",
     src: "muya.png",
