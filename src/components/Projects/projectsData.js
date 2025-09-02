@@ -73,6 +73,48 @@ const projects = [
   url: "https://emawas.com/",
 },
 {
+  title: "Smart Beacon Advertisement",
+  src: "beacon.png",
+  role: "Frontend Developer",
+  desc: "A proximity-based advertising solution leveraging beacon technology to deliver targeted ads to nearby users; I developed the responsive frontend using React, Redux, and Tailwind CSS.",
+  description: `
+    <p><strong>Smart Beacon Advertisement</strong> is a proximity-based advertising platform that allows businesses to deliver targeted promotions to customers within a certain range using beacon devices. The platform combines real-time location tracking and user-friendly dashboards for advertisers to manage campaigns efficiently.</p>
+    <p><strong>Key Features for Users:</strong></p>
+    <ol>
+      <li>Receive targeted notifications when near a beacon-enabled location.</li>
+      <li>Interact with promotional content in real-time.</li>
+      <li>View campaign details and offers seamlessly.</li>
+    </ol>
+    <p><strong>Key Features for Admins:</strong></p>
+    <ul>
+      <li>Create, schedule, and manage proximity-based ad campaigns.</li>
+      <li>Monitor campaign performance through analytics dashboards.</li>
+      <li>Manage beacons and associated locations effectively.</li>
+    </ul>
+    <div>
+      <h4>Problem Solver Focus</h4>
+      <p>The platform was built to address the challenge of delivering context-aware, location-specific advertising. My goal was to create an intuitive interface that allows admins to set up campaigns quickly and track engagement metrics in real-time.</p>
+      <p>I personally handled:</p>
+      <ol>
+        <li>Frontend development with <strong>React</strong>, <strong>Redux</strong>, and <strong>Tailwind CSS</strong>.</li>
+        <li>Designing responsive dashboards for both users and admins.</li>
+        <li>Integrating APIs for real-time data and notifications.</li>
+        <li>Ensuring accessibility, usability, and performance optimization.</li>
+        <li>Collaborating with backend developers to support beacon data management.</li>
+      </ol>
+    </div>
+    <div>
+      <h4>Impact of My Work</h4>
+      <p>The platform enables advertisers to deliver precise and timely promotions, increasing user engagement and conversion rates. My work helped ensure a scalable, user-friendly system that effectively connects brands with customers through proximity-based advertising.</p>
+    </div>
+  `,
+  color: "#1E3A8A",
+  tech: "React, Redux, Tailwind CSS , realtime(socket)",
+  slug: "beacon",
+  url: "https://beacon-admin-zeta.vercel.app/",
+}
+,
+{
   title: "Eth Delivery",
   src: "eth.png",
   role: "Frontend Developer",
