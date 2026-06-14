@@ -66,7 +66,7 @@ export default function Header({ customClass }) {
     { href: "/", label: "Home" },
     { href: "/work", label: "Work" },
     {
-      href: "/Temesgen_Getye_Resume.pdf",
+      href: "https://drive.google.com/file/d/1U75R-jupRgRVitUDhw4Q77tup70Vq5H2/view?usp=drive_link",
       label: "Resume",
       external: true,
     },
