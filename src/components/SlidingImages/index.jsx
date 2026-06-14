@@ -7,38 +7,38 @@ import Image from "next/image";
 const slider1 = [
   {
     color: "#e3e5e7",
-    src: "gebeya.png",
+    src: "888.png",
   },
   {
     color: "#d6d7dc",
-    src: "muya_2.png",
+    src: "emawa.png",
   },
   {
     color: "#e3e3e3",
-    src: "beti_2.png",
+    src: "eth.png",
   },
   {
     color: "#21242b",
-    src: "hagu.png",
+    src: "selam.png",
   },
 ];
 
 const slider2 = [
   {
-    color: "#d4e3ec",
-    src: "gym.png",
+    color: "#1E3A8A",
+    src: "beacon.png",
   },
   {
-    color: "#e5e0e1",
-    src: "nati.png",
+    color: "#8B0000",
+    src: "emawa.png",
   },
   {
-    color: "#d7d4cf",
-    src: "muya_dash_2.png",
+    color: "#D6EFFF",
+    src: "eth.png",
   },
   {
-    color: "#e1dad6",
-    src: "betty.png",
+    color: "#C084FC",
+    src: "selam.png",
   },
 ];
 
