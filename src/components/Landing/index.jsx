@@ -100,17 +100,12 @@ export default function Home() {
             strokeLinejoin="round"
           />
         </motion.svg>
-        <motion.p
-          className="text-base sm:text-lg md:text-xl lg:text-2xl font-light text-gray-700 mb-1 sm:mb-2"
-          whileHover={{ scale: 1.05 }}
-        >
-          Freelance
-        </motion.p>
+       
         <motion.p
           className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-800"
           whileHover={{ scale: 1.05 }}
         >
-          Full Stack Developer
+          Software Developer
         </motion.p>
       </motion.div>
     </motion.main>

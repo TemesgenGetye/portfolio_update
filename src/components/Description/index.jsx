@@ -6,7 +6,7 @@ import Rounded from "../../common/RoundedButton";
 
 export default function Description() {
   const phrase =
-    "Hello, I'm Temesgen—a skilled full-stack developer with a passion for crafting intuitive and efficient digital solutions. With experience in completing over 10 impactful projects, I excel at transforming intricate concepts into user-friendly applications. Welcome to my portfolio, where creativity meets technical precision!";
+    "Hi, I'm Temesgen—a software developer dedicated to building robust, user-centric digital solutions. With over 10 successful projects delivered, I specialize in turning complex ideas into polished, high-performance applications. Welcome to my portfolio, where thoughtful design meets clean engineering.";
   const description = useRef(null);
   const isInView = useInView(description);
   return (
