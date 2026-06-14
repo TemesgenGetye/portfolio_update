@@ -1,5 +1,182 @@
 const projects = [
 {
+  title: "Boingo AI",
+  src: "boingo.png",
+  role: "Senior Frontend Developer",
+  desc: "An AI-powered real estate platform hosting over 44,000 property listings; I spearheaded frontend development for responsive, high-performance UI components.",
+  description: `
+    <p><strong>Boingo AI</strong> is a sophisticated AI-powered real estate platform that hosts over 44,000 property listings. The platform leverages artificial intelligence to enhance property discovery and streamline the real estate experience.</p>
+    <p><strong>Key Features:</strong></p>
+    <ol>
+      <li>AI-powered property search and intelligent recommendations.</li>
+      <li>Responsive, high-performance UI for efficient property discovery.</li>
+      <li>Seamless listing management and improved navigation.</li>
+      <li>Intelligent listing validation for data accuracy.</li>
+    </ol>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Spearheaded the development of core frontend features ensuring a smooth, visually appealing interface.</li>
+      <li>Engineered responsive, high-performance UI components for property discovery and listing management.</li>
+      <li>Collaborated with AI and backend teams to implement intelligent listing validation systems.</li>
+      <li>Optimized performance across large datasets for both web and mobile platforms.</li>
+    </ol>
+  `,
+  color: "#5C3A21",
+  tech: "Next.js, TypeScript, Tailwind CSS",
+  slug: "boingo",
+  url: "https://boingo.ai/en",
+},
+{
+  title: "BrainBite",
+  src: "brain.png",
+  role: "Full-Stack Developer",
+  desc: "An AI-powered personalized learning platform with 1K–2K+ users and 50+ AI mentor personas; built fullstack features for adaptive tutoring.",
+  description: `
+    <p><strong>BrainBite</strong> is an AI-powered edtech platform that delivers personalized learning experiences. With 1,000–2,000+ total users and ~800–1,200 monthly active users, the platform achieved 100%+ MoM growth through innovative features.</p>
+    <p><strong>Key Features:</strong></p>
+    <ol>
+      <li>AI-powered personalized learning paths tailored to each student.</li>
+      <li>1:1 conversational AI tutoring with 50+ AI mentor personas.</li>
+      <li>Real-time adaptive learning reducing student drop-off.</li>
+      <li>Scalable SaaS architecture serving a global team across 4 continents.</li>
+    </ol>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Built and scaled AI-powered personalized learning features for an edtech platform.</li>
+      <li>Developed fullstack systems for 1:1 conversational AI tutoring and 50+ AI mentor personas.</li>
+      <li>Improved student engagement by ~30–40% through real-time adaptive learning.</li>
+      <li>Engineered scalable SaaS architecture, improving performance by ~40%.</li>
+    </ol>
+  `,
+  color: "#7C3AED",
+  tech: "NestJS, PostgreSQL, MongoDB, Docker, AWS",
+  slug: "brainbite",
+  url: "https://www.brainbite.ai/en",
+},
+{
+  title: "Hulucar",
+  src: "hulucar.png",
+  role: "Full-Stack Developer",
+  desc: "A car platform delivering seamless vehicle management and user experiences.",
+  description: `
+    <p><strong>Hulucar</strong> is a platform designed to streamline vehicle management and provide users with a seamless experience for car-related services.</p>
+    <p><strong>Key Features:</strong></p>
+    <ol>
+      <li>Intuitive vehicle listing and discovery tools.</li>
+      <li>User-friendly dashboards for managing listings and inquiries.</li>
+      <li>Real-time updates and notifications.</li>
+      <li>Responsive design for all devices.</li>
+    </ol>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed fullstack features for the platform.</li>
+      <li>Built responsive and performant frontend components.</li>
+      <li>Integrated backend APIs for data management.</li>
+      <li>Ensured scalability and clean architecture.</li>
+    </ol>
+  `,
+  color: "#2D1B4E",
+  tech: "React, Node.js, PostgreSQL, Tailwind CSS",
+  slug: "hulucar",
+  url: "https://hulucar.com/",
+},
+{
+  title: "Sunshine",
+  src: "sunshine.png",
+  role: "Full-Stack Developer",
+  desc: "A digital platform designed to streamline services and enhance user engagement.",
+  description: `
+    <p><strong>Sunshine</strong> is a digital platform built to streamline services and deliver an engaging user experience.</p>
+    <p><strong>Key Features:</strong></p>
+    <ol>
+      <li>Modern, responsive interface for all users.</li>
+      <li>Efficient service management and workflow automation.</li>
+      <li>Real-time updates and analytics.</li>
+      <li>Secure authentication and data management.</li>
+    </ol>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed the fullstack application from the ground up.</li>
+      <li>Built responsive UI components with modern frameworks.</li>
+      <li>Designed and implemented backend APIs.</li>
+      <li>Deployed and managed infrastructure for production.</li>
+    </ol>
+  `,
+  color: "#1B5E20",
+  tech: "React, Node.js, MongoDB, Docker",
+  slug: "sunshine",
+  url: "https://play.google.com/store/apps/details?id=com.temesgengetye.Sunshine&hl=en",
+},
+{
+  title: "Emawas",
+  src: "emawa.png",
+  role: "Full-Stack Developer",
+  desc: "One of Ethiopia's largest online shopping platforms with warehouse management; I developed the responsive web frontend and mobile features.",
+  description: `
+    <p><strong>Emawas</strong> is one of Ethiopia's biggest online shopping platforms, connecting thousands of customers with a wide range of products. It also includes a powerful admin side for warehouse and order management.</p>
+    <p><strong>For customers, the platform offers:</strong></p>
+    <ol>
+      <li>Easy browsing and product discovery with advanced filters.</li>
+      <li>Secure account management and order tracking.</li>
+      <li>Responsive design for shopping on any device.</li>
+      <li>Fast-loading pages to ensure a smooth experience.</li>
+    </ol>
+    <p><strong>For admins:</strong></p>
+    <ul>
+      <li>Warehouse and inventory management dashboards.</li>
+      <li>Order management and tracking tools.</li>
+      <li>Real-time product updates through API integration.</li>
+      <li>Data-driven insights to improve operations.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed and maintained complex mobile features for a high-traffic e-commerce platform.</li>
+      <li>Architected scalable product browsing systems and multi-layered filtering mechanisms.</li>
+      <li>Implemented end-to-end order management workflows.</li>
+      <li>Collaborated with backend engineers and product managers within Agile sprint cycles.</li>
+    </ol>
+  `,
+  color: "#B02020",
+  tech: "React Native, Redux, Tailwind CSS, React Query",
+  slug: "emawa",
+  url: "https://emawas.com/",
+},
+{
+  title: "Eth Delivery",
+  src: "eth.png",
+  role: "Frontend Developer",
+  desc: "A leading Dubai online store and delivery platform; I built the frontend for both admin and user dashboards.",
+  description: `
+    <p><strong>Eth Delivery</strong> is one of Dubai's largest e-commerce and delivery service platforms, offering customers the ability to shop online while also ensuring reliable delivery management for businesses.</p>
+    <p><strong>Customer Features:</strong></p>
+    <ol>
+      <li>Shop from a large catalog with intuitive search and filters.</li>
+      <li>Track orders in real-time with live delivery status updates.</li>
+      <li>Access personalized dashboards for managing profiles and orders.</li>
+      <li>Secure checkout and payment options integrated via APIs.</li>
+    </ol>
+    <p><strong>Admin Features:</strong></p>
+    <ul>
+      <li>Comprehensive dashboard for managing orders and deliveries.</li>
+      <li>Tools to oversee inventory, shipping, and customer accounts.</li>
+      <li>Real-time analytics for sales and logistics performance.</li>
+      <li>Multi-role support for admin and delivery staff.</li>
+    </ul>
+    <p><strong>My Role & Contributions:</strong></p>
+    <ol>
+      <li>Developed the frontend for both customer and admin interfaces using <strong>React</strong>.</li>
+      <li>Created responsive layouts optimized for all devices.</li>
+      <li>Integrated real-time API connections for order tracking.</li>
+      <li>Improved the shopping and delivery flow for better usability.</li>
+      <li>Ensured scalability with reusable, modular components.</li>
+    </ol>
+  `,
+  color: "#0A3D62",
+  tech: "React, Tailwind CSS",
+  slug: "eth",
+  url: "https://www.ethdelivery.net/",
+},
+{
   title: "888 Market",
   src: "888.png",
   role: "Full-Stack Developer",
@@ -36,75 +213,6 @@ const projects = [
   url: "https://eth-market-dev.vercel.app/",
 },
 {
-  title: "Emawas",
-  src: "emawa.png",
-  role: "Full-Stack Developer",
-  desc: "One of Ethiopia's largest online shopping platforms with warehouse management; I developed the responsive web frontend and mobile features.",
-  description: `
-    <p><strong>Emawas</strong> is one of Ethiopia's biggest online shopping platforms, connecting thousands of customers with a wide range of products. It also includes a powerful admin side for warehouse and order management.</p>
-    <p><strong>For customers, the platform offers:</strong></p>
-    <ol>
-      <li>Easy browsing and product discovery with advanced filters.</li>
-      <li>Secure account management and order tracking.</li>
-      <li>Responsive design for shopping on any device.</li>
-      <li>Fast-loading pages to ensure a smooth experience.</li>
-    </ol>
-    <p><strong>For admins:</strong></p>
-    <ul>
-      <li>Warehouse and inventory management dashboards.</li>
-      <li>Order management and tracking tools.</li>
-      <li>Real-time product updates through API integration.</li>
-      <li>Data-driven insights to improve operations.</li>
-    </ul>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Developed and maintained complex mobile features for a high-traffic e-commerce platform.</li>
-      <li>Architected scalable product browsing systems and multi-layered filtering mechanisms.</li>
-      <li>Implemented end-to-end order management workflows.</li>
-      <li>Collaborated with backend engineers and product managers within Agile sprint cycles.</li>
-    </ol>
-  `,
-  color: "#B02020",
-  tech: "React, React Native, Tailwind CSS, Redux, React Query",
-  slug: "emawa",
-  url: "https://emawas.com/",
-},
-{
-  title: "Eth Delivery",
-  src: "eth.png",
-  role: "Frontend Developer",
-  desc: "A leading Dubai online store and delivery platform; I built the frontend for both admin and user dashboards.",
-  description: `
-    <p><strong>Eth Delivery</strong> is one of Dubai's largest e-commerce and delivery service platforms, offering customers the ability to shop online while also ensuring reliable delivery management for businesses.</p>
-    <p><strong>Customer Features:</strong></p>
-    <ol>
-      <li>Shop from a large catalog with intuitive search and filters.</li>
-      <li>Track orders in real-time with live delivery status updates.</li>
-      <li>Access personalized dashboards for managing profiles and orders.</li>
-      <li>Secure checkout and payment options integrated via APIs.</li>
-    </ol>
-    <p><strong>Admin Features:</strong></p>
-    <ul>
-      <li>Comprehensive dashboard for managing orders and deliveries.</li>
-      <li>Tools to oversee inventory, shipping, and customer accounts.</li>
-      <li>Real-time analytics for sales and logistics performance.</li>
-      <li>Multi-role support for admin and delivery staff.</li>
-    </ul>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Developed the frontend for both customer and admin interfaces using <strong>React</strong>.</li>
-      <li>Created responsive layouts optimized for all devices.</li>
-      <li>Integrated real-time API connections for order tracking.</li>
-      <li>Improved the shopping and delivery flow for better usability.</li>
-      <li>Ensured scalability with reusable, modular components.</li>
-    </ol>
-  `,
-  color: "#0A3D62",
-  tech: "React, Tailwind CSS, API Integration",
-  slug: "eth",
-  url: "https://www.ethdelivery.net/",
-},
-{
   title: "Selam School",
   src: "selam.png",
   role: "Frontend Developer",
@@ -127,7 +235,7 @@ const projects = [
     </ul>
     <p><strong>My Role & Contributions:</strong></p>
     <ol>
-      <li>Built the frontend with <strong>React.js</strong> and <strong>Next.js</strong>.</li>
+      <li>Built the frontend with <strong>Next.js</strong>.</li>
       <li>Implemented state management with React Query/Redux Toolkit.</li>
       <li>Created interactive UI components using Tailwind CSS.</li>
       <li>Integrated APIs for courses, lessons, and student progress.</li>
@@ -135,7 +243,7 @@ const projects = [
     </ol>
   `,
   color: "#A68BC1",
-  tech: "Next.js, React.js, Tailwind CSS, React Query",
+  tech: "Next.js, Tailwind CSS, React Query",
   slug: "selam",
   url: "https://selamschool.com/",
 },
@@ -171,114 +279,6 @@ const projects = [
   tech: "React, Redux, Tailwind CSS, WebSocket",
   slug: "beacon",
   url: "https://beacon-admin-zeta.vercel.app/",
-},
-{
-  title: "Boingo AI",
-  src: "boingo.png",
-  role: "Senior Frontend Developer",
-  desc: "An AI-powered real estate platform hosting over 44,000 property listings; I spearheaded frontend development for responsive, high-performance UI components.",
-  description: `
-    <p><strong>Boingo AI</strong> is a sophisticated AI-powered real estate platform that hosts over 44,000 property listings. The platform leverages artificial intelligence to enhance property discovery and streamline the real estate experience.</p>
-    <p><strong>Key Features:</strong></p>
-    <ol>
-      <li>AI-powered property search and intelligent recommendations.</li>
-      <li>Responsive, high-performance UI for efficient property discovery.</li>
-      <li>Seamless listing management and improved navigation.</li>
-      <li>Intelligent listing validation for data accuracy.</li>
-    </ol>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Spearheaded the development of core frontend features ensuring a smooth, visually appealing interface.</li>
-      <li>Engineered responsive, high-performance UI components for property discovery and listing management.</li>
-      <li>Collaborated with AI and backend teams to implement intelligent listing validation systems.</li>
-      <li>Optimized performance across large datasets for both web and mobile platforms.</li>
-    </ol>
-  `,
-  color: "#0F766E",
-  tech: "React, Next.js, React Native, Tailwind CSS, TypeScript",
-  slug: "boingo",
-  url: "",
-},
-{
-  title: "BrainBite",
-  src: "brain.png",
-  role: "Full-Stack Developer",
-  desc: "An AI-powered personalized learning platform with 1K–2K+ users and 50+ AI mentor personas; built fullstack features for adaptive tutoring.",
-  description: `
-    <p><strong>BrainBite</strong> is an AI-powered edtech platform that delivers personalized learning experiences. With 1,000–2,000+ total users and ~800–1,200 monthly active users, the platform achieved 100%+ MoM growth through innovative features.</p>
-    <p><strong>Key Features:</strong></p>
-    <ol>
-      <li>AI-powered personalized learning paths tailored to each student.</li>
-      <li>1:1 conversational AI tutoring with 50+ AI mentor personas.</li>
-      <li>Real-time adaptive learning reducing student drop-off.</li>
-      <li>Scalable SaaS architecture serving a global team across 4 continents.</li>
-    </ol>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Built and scaled AI-powered personalized learning features for an edtech platform.</li>
-      <li>Developed fullstack systems for 1:1 conversational AI tutoring and 50+ AI mentor personas.</li>
-      <li>Improved student engagement by ~30–40% through real-time adaptive learning.</li>
-      <li>Engineered scalable SaaS architecture, improving performance by ~40%.</li>
-    </ol>
-  `,
-  color: "#7C3AED",
-  tech: "Node.js, Express.js, NestJS, PostgreSQL, MongoDB, Docker, AWS",
-  slug: "brainbite",
-  url: "",
-},
-{
-  title: "Hulucar",
-  src: "hulucar.png",
-  role: "Full-Stack Developer",
-  desc: "A car platform delivering seamless vehicle management and user experiences.",
-  description: `
-    <p><strong>Hulucar</strong> is a platform designed to streamline vehicle management and provide users with a seamless experience for car-related services.</p>
-    <p><strong>Key Features:</strong></p>
-    <ol>
-      <li>Intuitive vehicle listing and discovery tools.</li>
-      <li>User-friendly dashboards for managing listings and inquiries.</li>
-      <li>Real-time updates and notifications.</li>
-      <li>Responsive design for all devices.</li>
-    </ol>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Developed fullstack features for the platform.</li>
-      <li>Built responsive and performant frontend components.</li>
-      <li>Integrated backend APIs for data management.</li>
-      <li>Ensured scalability and clean architecture.</li>
-    </ol>
-  `,
-  color: "#DC2626",
-  tech: "React, Node.js, PostgreSQL, Tailwind CSS",
-  slug: "hulucar",
-  url: "",
-},
-{
-  title: "Sunshine",
-  src: "sunshine.png",
-  role: "Full-Stack Developer",
-  desc: "A digital platform designed to streamline services and enhance user engagement.",
-  description: `
-    <p><strong>Sunshine</strong> is a digital platform built to streamline services and deliver an engaging user experience.</p>
-    <p><strong>Key Features:</strong></p>
-    <ol>
-      <li>Modern, responsive interface for all users.</li>
-      <li>Efficient service management and workflow automation.</li>
-      <li>Real-time updates and analytics.</li>
-      <li>Secure authentication and data management.</li>
-    </ol>
-    <p><strong>My Role & Contributions:</strong></p>
-    <ol>
-      <li>Developed the fullstack application from the ground up.</li>
-      <li>Built responsive UI components with modern frameworks.</li>
-      <li>Designed and implemented backend APIs.</li>
-      <li>Deployed and managed infrastructure for production.</li>
-    </ol>
-  `,
-  color: "#F59E0B",
-  tech: "React, Node.js, MongoDB, Docker",
-  slug: "sunshine",
-  url: "",
 },
 ];
 

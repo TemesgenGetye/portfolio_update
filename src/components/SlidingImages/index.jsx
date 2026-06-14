@@ -6,39 +6,39 @@ import Image from "next/image";
 
 const slider1 = [
   {
-    color: "#e3e5e7",
-    src: "888.png",
+    color: "#5C3A21",
+    src: "boingo.png",
   },
   {
-    color: "#d6d7dc",
-    src: "emawa.png",
+    color: "#7C3AED",
+    src: "brain.png",
   },
   {
-    color: "#e3e3e3",
-    src: "eth.png",
-  },
-  {
-    color: "#21242b",
-    src: "selam.png",
-  },
-];
-
-const slider2 = [
-  {
-    color: "#1E3A8A",
-    src: "beacon.png",
+    color: "#2D1B4E",
+    src: "hulucar.png",
   },
   {
     color: "#8B0000",
     src: "emawa.png",
   },
+];
+
+const slider2 = [
   {
-    color: "#D6EFFF",
+    color: "#0A3D62",
     src: "eth.png",
   },
   {
-    color: "#C084FC",
+    color: "#1E3A8A",
+    src: "888.png",
+  },
+  {
+    color: "#A68BC1",
     src: "selam.png",
+  },
+  {
+    color: "#1E3A8A",
+    src: "beacon.png",
   },
 ];
 

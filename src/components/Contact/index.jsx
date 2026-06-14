@@ -69,7 +69,7 @@ export default function Contact() {
           <div>
             <span>
               <h3>Version</h3>
-              <p>2024 © Edition</p>
+              <p>© {new Date().getFullYear()} Edition</p>
             </span>
           </div>
           <div>
